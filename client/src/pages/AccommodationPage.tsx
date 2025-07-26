@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import {
   Mountain, Star, Heart, MapPin, Users, Wifi, Car, Coffee, Utensils, Shield,
-  Camera, Spa, Phone, Mail, Calendar, ChevronLeft, ChevronRight, ExternalLink,
+  Camera, Phone, Mail, Calendar, ChevronLeft, ChevronRight, ExternalLink,
   Bed, Bath, TreePine, Sun, Moon, Award, CheckCircle, ArrowRight, Home
 } from 'lucide-react';
 
@@ -708,7 +708,7 @@ const CustomRequestDetail = ({ onBack }) => {
     {
       id: 'wellness',
       title: 'Wellness Retreats',
-      icon: Spa,
+      icon: Bath,
       description: 'Health and wellness focused stays',
       features: ['Spa treatments', 'Yoga sessions', 'Healthy cuisine', 'Detox programs']
     }
